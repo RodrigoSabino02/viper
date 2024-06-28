@@ -30,7 +30,7 @@ class BikiniparadiseController extends Controller
             "free_amount"       => 4,
             "free_multi"        => 0,
             "freespin_mode"     => 0,
-            "credit_line"       => 1,
+            "credit_line"       => 0.4,
             "buy_feature"       => 50,
             "buy_max"           => 1300,
             "total_way"         => 27,
@@ -75,8 +75,10 @@ class BikiniparadiseController extends Controller
 
         $dropLine = [];
         $betSizeList = [
-            "0.2",
-            "2",
+            "0.1",
+            "1",
+            "5",
+            "10",
             "20",
             "100"
         ];
